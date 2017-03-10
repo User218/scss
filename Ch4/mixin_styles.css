@@ -1,0 +1,17 @@
+/*
+ * SASS mixins are declared with the @mixin directive
+ * and used with the @include directive
+ */
+header {
+  color: #274D87;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px; }
+
+footer {
+  color: #3264AF;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px; }
+
+/*# sourceMappingURL=mixin_styles.css.map */

@@ -1,0 +1,21 @@
+/* 
+ * SASS Variables are defined with a $ character
+ * and can have different kinds of data types: color, string, boolean, multi-value
+ */
+
+@import "import_me.scss";
+
+h1, h2 {
+    color: $myColor1;
+}
+
+#mypara {
+    font-size: $myFontSize;
+    border: $thinBorder;
+    padding: $paddingVar;
+}
+
+#mypara:after {
+    content: $myStringVar;
+}
+
